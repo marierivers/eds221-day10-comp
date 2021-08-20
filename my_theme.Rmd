@@ -10,11 +10,19 @@ knitr::opts_chunk$set(echo = TRUE)
 library(palmerpenguins)
 library(tidyverse)
 library(icecreamsealion)
+library(lasagnashark)
 ```
 
 ```{r}
 ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
   geom_point() +
   theme_test()
+```
+
+
+```{r}
+ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point() +
+  theme_bee()
 ```
 
